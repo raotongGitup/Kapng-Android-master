@@ -16,8 +16,17 @@ ApngDecoder.decodeApngAsyncInto(context, URL(url), imageView)
 
 You can load a file, an uri, a resource int, an url, or an inputStream.
 
+导库的方式：
 
-
-
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+ dependencies {
+	        implementation 'com.github.raotongGitup:Kapng-Android-master:Tag'
+	}
  
 
